@@ -5,6 +5,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
+  //state updater
   const initialText = "BREAD";
   const [text, setText] = useState(initialText);
 
